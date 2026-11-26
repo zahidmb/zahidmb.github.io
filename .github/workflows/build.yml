@@ -1,8 +1,9 @@
 # Rebuilds index.html automatically whenever content.json (or build.py / style.css) is edited on GitHub.
 name: Rebuild site
 on:
+  workflow_dispatch:
   push:
-    paths: ["content.json", "build.py"]
+    paths: ["content.json", "build.py", ".github/workflows/build.yml"]
 permissions:
   contents: write
 jobs:
