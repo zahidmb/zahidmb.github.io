@@ -19,3 +19,6 @@ Open the failed run in the Actions tab; the last lines name the problem (a bad J
 
 ## Wording fixes
 To change how a CV phrase appears on the site without touching the CV, add it to `text_replacements` in `site_extras.json`. DOI links missing in RxResume can be added under `doi_by_title`.
+
+
+**Do not edit `content.generated.json`.** It is rebuilt from `cv.json` + `site_extras.json` on every run, so hand edits are lost (the workflow now stops with a red run if you try). Change website wording in `site_extras.json` (fields such as `pub_note`, `news`, `contact_text`, or a `text_replacements` entry), or change the CV and upload a new `cv.json`.

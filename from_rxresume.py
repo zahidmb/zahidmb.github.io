@@ -82,6 +82,7 @@ bad = [k for k in ("journals", "experience", "education", "lead") if not out.get
 if bad: sys.exit(f"ERROR: CV export has no usable: {bad}. Site left unchanged.")
 for p in journals + conferences:
     if not p["title"] or not p["year"]: sys.exit(f"ERROR: publication without title or year: {p}")
+out = {"_DO_NOT_EDIT": "Generated from cv.json + site_extras.json on every rebuild. Edit site_extras.json or the CV instead.", **out}
 (H / "content.generated.json").write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf8")
 print(f"CV read: {len(journals)} journals, {len(preprints)} preprints, {len(conferences)} conference, {len(under)} under review, "
       f"{len(experience)} roles, {len(education)} degrees, {len(awards)} awards, {len(certs)} certifications, {len(service)} service, {len(skills)} skills")
