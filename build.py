@@ -40,7 +40,7 @@ page = f"""<!doctype html>
 <header class="top"><nav aria-label="Sections"><a class="brand" href="#top">Z. Iqbal</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#collaboration">Collaboration</a><a href="#contact">Contact</a></nav></header>
 <main id="top">
 <section class="hero">{photo}<div><h1>{E(s["name"])}</h1><p class="role-line">{E(s["title"])}<br>{E(s["affiliation"])}</p><p class="lead">{E(c["lead"])}</p><p class="actions">{btns}</p></div></section>
-<section id="research"><h2>Research</h2><p>{E(c["about"])}</p><ul class="chips">{"".join(f"<li>{E(x)}</li>" for x in c["interests"])}</ul></section>
+<section id="research"><h2 class="small">{E(c.get("research_heading","Research interests"))}</h2>{f'<p>{E(c["about"])}</p>' if c.get("about") else ""}<ul class="chips">{"".join(f"<li>{E(x)}</li>" for x in c["interests"])}</ul></section>
 <section id="news"><h2>Recent highlights</h2><ul class="list">{"".join(f'<li><span class="yr">{E(d)}</span><div>{t}</div></li>' for d, t in c["news"])}</ul></section>
 <section id="publications"><h2>Publications</h2><p class="note">{E(c["pub_note"])}</p>
 <h3 class="sub">Journal articles</h3><ul class="list">{"".join(pub(p) for p in c["journals"])}</ul>
