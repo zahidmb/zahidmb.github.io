@@ -22,6 +22,7 @@ def bullets(html):
 def period(i): return i.get("period") or (i.get("dates") or {}).get("raw") or ""
 url = lambda i: (i.get("website") or {}).get("url", "") if str((i.get("website") or {}).get("url", "")).startswith("http") else ""
 rep = ex.get("text_replacements", {})
+doi_map = ex.get("doi_by_title", {})
 def fix(s):
     for a, b in rep.items(): s = s.replace(a, b)
     return s
@@ -29,14 +30,14 @@ def fix(s):
 BADGE = re.compile(r"(JIF\s*[\d.]+\s*[,·]?\s*Q\d|Scopus\s*Q\d)", re.I)
 def pub(i):
     p = i.get("publisher", ""); m = BADGE.search(p)
-    badge = re.sub(r"\s*,\s*", " · ", m.group(1)) if m else ""
+    badge = re.sub(r"(JIF\s*[\d.]+)\s*[,·]?\s*(Q\d)", r"\1 · \2", m.group(1), flags=re.I) if m else ""
     acc = bool(re.search(r"\(accepted\)", p, re.I))
     v = BADGE.sub("", re.sub(r"\(accepted\)", "", p, flags=re.I)).strip(" ·.,;")
     v = re.sub(r"\s*·\s*", " ", v); v = re.sub(r",\s+(?=\d|e\d)", " ", v, count=1)
-    return dict(title=txt(i["title"]), venue=v + (" (accepted)" if acc else ""), year=str(i.get("date") or (i.get("dates") or {}).get("start") or ""), badge=badge, doi=url(i))
+    return dict(title=txt(i["title"]), venue=v + (" (accepted)" if acc else ""), year=str(i.get("date") or (i.get("dates") or {}).get("start") or ""), badge=badge, doi=url(i) or doi_map.get(txt(i["title"]), ""))
 
 journals = [pub(i) for i in items("publications")]
-conferences = [dict(title=txt(i["company"]), venue=txt(i["position"]), year=period(i), badge="", doi=url(i)) for i in custom("Conference Publications")]
+conferences = [dict(title=txt(i["company"]), venue=txt(i["position"]), year=period(i), badge="", doi=url(i) or doi_map.get(txt(i["company"]), "")) for i in custom("Conference Publications")]
 preprints, under = [], []
 for i in custom("Manuscripts Under Review"):
     t, v = txt(i["company"]), txt(i["position"]); m = re.search(r"\d{4}\.\d{4,5}", v)
@@ -47,14 +48,14 @@ experience = [role(i, "company", txt(i["position"]), "location") for i in items(
 education = [role(i, "school", txt(i["degree"]) + (", " + txt(i["area"]) if txt(i.get("area")) else "")) for i in items("education")]
 awards = [", ".join(x for x in (txt(i["title"]), txt(i.get("awarder"))) if x) + (f" ({txt(i['date'])})" if txt(i.get("date")) else "") for i in items("awards")]
 certs = [", ".join(x for x in (txt(i["title"]), txt(i.get("issuer"))) if x) + (f" ({txt(i['date'])})" if txt(i.get("date")) else "") + (", " + txt(i["description"]) if txt(i.get("description")) else "") for i in items("certifications")]
-service = [txt(i["organization"]) + (", " + txt(i["description"]) if txt(i.get("description")) else "") + (f" ({period(i)})" if period(i) else "") for i in items("volunteer")]
+service = [txt(i["organization"]) + (", " + txt(i["description"]) if txt(i.get("description")) else "") + (f" ({period(i)})" if period(i) else "") for i in items("volunteer") if txt(i.get("organization"))]
 skills = [[txt(i["name"]), ", ".join(i.get("keywords", []))] for i in items("skills")]
 langs = [[txt(i["language"]), txt(i.get("fluency"))] for i in items("languages")]
 ri = custom("Research Interests")
 interests = [x.strip() for x in txt(ri[0].get("description")).split("·") if x.strip()] if ri else []
 
 out = json.loads(json.dumps(ex))                      # start from the website-only extras
-out.pop("text_replacements", None)
+out.pop("text_replacements", None); out.pop("doi_by_title", None)
 out.setdefault("site", {}); out["site"].setdefault("name", cv["basics"]["name"])
 out["site"].setdefault("emails", [cv["basics"]["email"]])
 out.setdefault("links", {})

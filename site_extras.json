@@ -83,5 +83,19 @@
   "Multimodal learning",
   "Trustworthy AI"
  ],
- "text_replacements": {}
+ "text_replacements": {
+  "ICICSE 2021, ICICSE, Malaysia": "ICICSE 2021, Malaysia",
+  "2015 , 2018": "2015, 2018",
+  "IBM (2026), cover 12 courses": "IBM (2026), 12 courses",
+  "IBM (2023), cover 6 courses": "IBM (2023), 6 courses",
+  "DeepLearning.ai (Coursera) (2026), cover 5 courses": "DeepLearning.AI on Coursera (2026), 5 courses",
+  "IEEE ACCESS": "IEEE Access",
+  "ACIT 2026 (Accepted)": "ACIT 2026 (accepted)"
+ },
+ "doi_by_title": {
+  "FedSight: A federated decision-support system for trustworthy retinal diagnosis under statistical heterogeneity": "https://doi.org/10.1016/j.knosys.2026.117328",
+  "Generative and Agentic Artificial Intelligence for Network Intrusion Detection: A Systematic Literature Review": "https://doi.org/10.1007/s10207-026-01361-8",
+  "Handling Illusive Text in Document to Improve Accuracy of Plagiarism Detection Algorithm": "https://doi.org/10.1007/978-981-16-8129-5_9",
+  "A Study of Different Machine Learning Approaches for Relation Discovery Task": "https://doi.org/10.1049/icp.2025.1148"
+ }
 }
