@@ -1,4 +1,4 @@
-{
+s{
  "site": {
   "name": "Dr. Zahid Iqbal",
   "title": "Senior Lecturer, Department of Computer Science",
@@ -388,7 +388,7 @@
    "Native"
   ]
  ],
- "collaboration_text": "Joint papers and projects with colleagues in six countries.",
+ "collaboration_text": "Research Collaboration with several authors/institutes in",
  "collaboration": [
   [
    "Slovenia",
@@ -415,6 +415,6 @@
    "University of Gujrat; Air University"
   ]
  ],
- "contact_text": "I welcome conversations about federated learning, knowledge distillation and joint research.",
+ "contact_text": "I welcome discussing any research collaboration opportunity.",
  "research_heading": "Research interests"
 }
