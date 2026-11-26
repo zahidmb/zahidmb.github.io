@@ -1,0 +1,415 @@
+{
+ "site": {
+  "name": "Dr. Zahid Iqbal",
+  "title": "Senior Lecturer, Department of Computer Science",
+  "affiliation": "University of Gujrat, Pakistan",
+  "tagline_short": "Federated learning and knowledge distillation",
+  "site_url": "https://zahidmb.github.io/",
+  "emails": [
+   "zahidiqbal.mb@gmail.com",
+   "zahid.iqbal@uog.edu.pk"
+  ],
+  "address": "Department of Computer Science, Faculty of Computing and IT, University of Gujrat, Hafiz Hayat Campus, Gujrat, Pakistan",
+  "photo": "",
+  "description": "Computer scientist working on federated learning with heterogeneous clients, knowledge distillation and trustworthy AI. Senior Lecturer at the University of Gujrat; research collaborator of the Jožef Stefan Institute, Slovenia.",
+  "show_under_review": true,
+  "cv_pdf": ""
+ },
+ "links": {
+  "scholar": "",
+  "orcid": "",
+  "github": "",
+  "linkedin": ""
+ },
+ "lead": "Senior Lecturer in Computer Science at the University of Gujrat since 2012. I work on federated learning across clients that hold different data and different models, using adaptive knowledge distillation, with applications in medical imaging, network security and industrial inspection.",
+ "about": "My research develops federated learning methods that stay accurate and communication-efficient when clients differ in data distribution and in model architecture, with attention to privacy, explainability and leakage-free evaluation. The thread runs from my PhD at Universiti Sains Malaysia (adaptive distillation for non-IID data), through a research internship at OMRON SINIC X in Tokyo, to current joint work with the Jožef Stefan Institute in Slovenia. Recent work appears in Knowledge-Based Systems (Q1), the International Journal of Information Security (Q1), IEEE Access (Q2) and PeerJ Computer Science (Q2).",
+ "interests": [
+  "Federated learning",
+  "Knowledge distillation",
+  "Privacy in machine learning",
+  "Explainable AI",
+  "Medical image analysis",
+  "Intrusion detection",
+  "Multimodal learning",
+  "Trustworthy AI"
+ ],
+ "news": [
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.1007/s10207-026-01361-8\">Generative and agentic AI for network intrusion detection</a>: systematic review published in the <em>International Journal of Information Security</em> (JIF 5.0, Q1)."
+  ],
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.1016/j.knosys.2026.117328\">FedSight</a>, a federated decision-support system for retinal diagnosis, published in <em>Knowledge-Based Systems</em> (JIF 8.0, Q1)."
+  ],
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.1109/ACCESS.2026.3735432\">Adaptive dual-mode distillation</a> for federated learning published in <em>IEEE Access</em>, joint work with the Jožef Stefan Institute."
+  ],
+  [
+   "2026",
+   "Two sole-author arXiv preprints on leakage-aware evaluation (intrusion detection and drone audio)."
+  ]
+ ],
+ "pub_note": "JIF and quartile: Clarivate JCR unless marked; BEEI: Scopus. Titles link to the publisher page.",
+ "journals": [
+  {
+   "title": "FedSight: A federated decision-support system for trustworthy retinal diagnosis under statistical heterogeneity",
+   "venue": "Knowledge-Based Systems 356, 117328",
+   "year": "2026",
+   "badge": "JIF 8.0 · Q1",
+   "doi": "https://doi.org/10.1016/j.knosys.2026.117328"
+  },
+  {
+   "title": "Generative and Agentic Artificial Intelligence for Network Intrusion Detection: A Systematic Literature Review",
+   "venue": "International Journal of Information Security 25, 193",
+   "year": "2026",
+   "badge": "JIF 5.0 · Q1",
+   "doi": "https://doi.org/10.1007/s10207-026-01361-8"
+  },
+  {
+   "title": "Adaptive Dual-Mode Distillation for Robust and Communication-Efficient Federated Learning under Statistical and Model Heterogeneity",
+   "venue": "IEEE Access 14, 145907–145925",
+   "year": "2026",
+   "badge": "JIF 4.2 · Q2",
+   "doi": "https://doi.org/10.1109/ACCESS.2026.3735432"
+  },
+  {
+   "title": "Ensemble Attention Deep Network for Imbalanced Silicon Wafer Defect Inspection",
+   "venue": "PeerJ Computer Science 12, e4025",
+   "year": "2026",
+   "badge": "JIF 2.9 · Q2",
+   "doi": "https://doi.org/10.7717/peerj-cs.4025"
+  },
+  {
+   "title": "Artificial Intelligence in Smart Home Security: Balancing Innovation with Ethics",
+   "venue": "Bulletin of Electrical Engineering and Informatics 14(6), 4601–4613",
+   "year": "2025",
+   "badge": "Scopus Q3",
+   "doi": "https://doi.org/10.11591/eei.v14i6.9674"
+  },
+  {
+   "title": "Efficient Region-Based Video Text Extraction Using Advanced Detection and Recognition Models",
+   "venue": "International Journal of Innovations in Science & Technology 7(5), 31–45",
+   "year": "2025",
+   "badge": "",
+   "doi": "https://doi.org/10.33411/ijist/1238"
+  },
+  {
+   "title": "Enhanced Anomaly Detection in Ethereum: Unveiling and Classifying Threats with Machine Learning",
+   "venue": "IEEE Access 12, 176440–176456",
+   "year": "2024",
+   "badge": "JIF 4.2 · Q2",
+   "doi": "https://doi.org/10.1109/ACCESS.2024.3504300"
+  },
+  {
+   "title": "Handling Illusive Text in Document to Improve Accuracy of Plagiarism Detection Algorithm",
+   "venue": "Lecture Notes in Electrical Engineering 829, 52–58, Springer",
+   "year": "2022",
+   "badge": "",
+   "doi": "https://doi.org/10.1007/978-981-16-8129-5_9"
+  },
+  {
+   "title": "Concepts, Key Challenges and Open Problems of Federated Learning",
+   "venue": "International Journal of Engineering 34(7), 1667–1683",
+   "year": "2021",
+   "badge": "JIF 2.3 · Q2",
+   "doi": "https://doi.org/10.5829/ije.2021.34.07a.11"
+  },
+  {
+   "title": "Effective Solution of University Course Timetabling Using a Particle Swarm Optimizer-Based Hyper-Heuristic Approach",
+   "venue": "Baghdad Science Journal 18(4 Suppl.), 1465",
+   "year": "2021",
+   "badge": "JIF 1.4 · Q3",
+   "doi": "https://doi.org/10.21123/bsj.2021.18.4(Suppl.).1465"
+  }
+ ],
+ "preprints": [
+  {
+   "title": "Leakage-Free Evaluation of Residual Graph Convolutional Networks for Network Intrusion Detection",
+   "venue": "arXiv:2611.04660",
+   "year": "2026",
+   "badge": "",
+   "doi": "https://arxiv.org/abs/2611.04660"
+  },
+  {
+   "title": "Leakage-aware acoustic drone detection: fusing hand-crafted and pretrained audio features in a stacking ensemble",
+   "venue": "arXiv:2611.04714",
+   "year": "2026",
+   "badge": "",
+   "doi": "https://arxiv.org/abs/2611.04714"
+  }
+ ],
+ "conferences": [
+  {
+   "title": "Hybrid Acoustic and Self-Supervised Feature Fusion for UAV Detection Using Stacking Ensemble Learning",
+   "venue": "ACIT 2026 (accepted)",
+   "year": "2026",
+   "badge": "",
+   "doi": ""
+  },
+  {
+   "title": "Attention-Enhanced Convolutional Neural Network for Robust Recognition of Mixed and Imbalanced Wafer Defects",
+   "venue": "ACIT 2026 (accepted)",
+   "year": "2026",
+   "badge": "",
+   "doi": ""
+  },
+  {
+   "title": "Automated Question Generation from Job Descriptions Using Large Language Models: An Evaluation of Role-Fit and Fairness",
+   "venue": "ICEPECC 2025, IET, pp. 628–635",
+   "year": "2025",
+   "badge": "",
+   "doi": "https://doi.org/10.1049/icp.2025.1174"
+  },
+  {
+   "title": "A Study of Different Machine Learning Approaches for Relation Discovery Task",
+   "venue": "ICEPECC 2025, IET, pp. 423–431",
+   "year": "2025",
+   "badge": "",
+   "doi": "https://doi.org/10.1049/icp.2025.1148"
+  },
+  {
+   "title": "Development and Implementation of an Autonomous Vehicle Prototype with ADAS",
+   "venue": "ICEPECC 2025, IET, pp. 464–471",
+   "year": "2025",
+   "badge": "",
+   "doi": "https://doi.org/10.1049/icp.2025.1154"
+  },
+  {
+   "title": "IoT-Enabled Palm Oil Supply Chain Traceability: Exploiting Dual Channel Diversity",
+   "venue": "IEEE ICSECS 2025, pp. 514–519",
+   "year": "2025",
+   "badge": "",
+   "doi": "https://doi.org/10.1109/ICSECS65227.2025.11279234"
+  },
+  {
+   "title": "Adaptive Distillation for Decentralized Learning from Heterogeneous Clients",
+   "venue": "25th International Conference on Pattern Recognition (ICPR 2020), IEEE, pp. 7486–7492",
+   "year": "2021",
+   "badge": "",
+   "doi": "https://doi.org/10.1109/ICPR48806.2021.9412356"
+  },
+  {
+   "title": "A Comparative Study of Machine Learning Techniques Used in Non-Clinical Systems for Continuous Healthcare of Independent Livings",
+   "venue": "IEEE ISCAIE 2018, pp. 406–411",
+   "year": "2018",
+   "badge": "",
+   "doi": "https://doi.org/10.1109/ISCAIE.2018.8405507"
+  },
+  {
+   "title": "A Diverse Clustering Particle Swarm Optimizer for Dynamic Environment: To Locate and Track Multiple Optima",
+   "venue": "IEEE ICIEA 2015, pp. 1755–1760",
+   "year": "2015",
+   "badge": "",
+   "doi": "https://doi.org/10.1109/ICIEA.2015.7334395"
+  },
+  {
+   "title": "Study of Hybrid Approaches Used for University Course Timetable Problem (UCTP)",
+   "venue": "IEEE ICIEA 2015, pp. 696–701",
+   "year": "2015",
+   "badge": "",
+   "doi": "https://doi.org/10.1109/ICIEA.2015.7334198"
+  },
+  {
+   "title": "An Efficient Indoor Navigation Technique to Find Optimal Route for Blinds Using QR Codes",
+   "venue": "IEEE ICIEA 2015, pp. 690–695",
+   "year": "2015",
+   "badge": "",
+   "doi": "https://doi.org/10.1109/ICIEA.2015.7334197"
+  }
+ ],
+ "under_review": [
+  {
+   "title": "A Survey on Federated and Explainable Edge Intelligence for IoT Anomaly Detection",
+   "venue": "Computing (Springer)"
+  },
+  {
+   "title": "TwinView-Stack: source-disjoint fusion of hand-crafted and pretrained audio features for leakage-aware acoustic drone detection",
+   "venue": "Applied Acoustics"
+  },
+  {
+   "title": "LSB eHealth: A Lightweight Scalable Blockchain Framework for Low-Latency and Robust Federated e-Healthcare Services",
+   "venue": "Information Fusion"
+  },
+  {
+   "title": "ConFog: Fog–Cloud Insider Threat Detection with Tamper-Evident Alerts for Smart Hospitals",
+   "venue": "IEEE Access"
+  },
+  {
+   "title": "An Exploitation-Enhanced Binary Tornado Optimizer with Coriolis Force for Feature Selection",
+   "venue": "Neural Computing and Applications"
+  },
+  {
+   "title": "Analytical Study of Automated Ontology Learning and Relation Extraction: A Review of Methods, Representations, and Approaches",
+   "venue": "Computer Science Review"
+  }
+ ],
+ "experience": [
+  {
+   "org": "Jožef Stefan Institute",
+   "place": "Ljubljana, Slovenia",
+   "role": "Research Collaborator",
+   "period": "Jan 2026 – Present",
+   "bullets": [
+    "Joint research on several projects, including federated learning, knowledge distillation and trustworthy AI, with access to the institute's high-performance computing resources.",
+    "Joint journal publications in 2026: Knowledge-Based Systems (JIF 8.0, Q1); International Journal of Information Security (JIF 5.0, Q1); IEEE Access (JIF 4.2, Q2)."
+   ]
+  },
+  {
+   "org": "OMRON SINIC X Corporation",
+   "place": "Tokyo, Japan",
+   "role": "Research Intern (on site)",
+   "period": "Apr 2019 – Sep 2019",
+   "bullets": [
+    "Designed an adaptive distillation method for decentralized (federated) learning across clients with heterogeneous data and models, using public unlabeled data; published at ICPR 2020 (Ma, Yonetani, Iqbal)."
+   ]
+  },
+  {
+   "org": "University of Gujrat",
+   "place": "Gujrat, Pakistan",
+   "role": "Senior Lecturer, Department of Computer Science",
+   "period": "Jan 2012 – Present",
+   "bullets": [
+    "Teaching: designed and taught Artificial Intelligence, Machine Learning, Deep Learning, Federated Learning and Computational Intelligence; designed the AI and ML tracks.",
+    "Supervision: 30+ undergraduate and graduate research projects, several published at international venues.",
+    "Service: TPC Co-Chair, ICEPECC 2025 (IET); member of the affiliation and admission committees; founder and coordinator, Hayatian Computing Society; coordinator, ACM UOG Chapter (2013–2015)."
+   ]
+  },
+  {
+   "org": "Air University, Kharian Campus (on deputation)",
+   "place": "Kharian, Pakistan",
+   "role": "Assistant Professor and Chair/Head, Department of Computer Science and Cyber Security",
+   "period": "Jan 2025 – Sep 2025",
+   "bullets": [
+    "Led the BS Computer Science and BS Cyber Security programmes: OBE-based curriculum, budgets, faculty coordination.",
+    "Launched BS Artificial Intelligence and MS Computer Science (Fall 2025)."
+   ]
+  },
+  {
+   "org": "University of the Punjab, Gujranwala Campus",
+   "place": "Gujranwala, Pakistan",
+   "role": "Visiting Lecturer",
+   "period": "Nov 2012 – Apr 2013",
+   "bullets": []
+  },
+  {
+   "org": "Algorithm Consulting Company",
+   "place": "Islamabad, Pakistan",
+   "role": "Software Engineer",
+   "period": "2010 – 2011",
+   "bullets": [
+    "ERP solutions for multinational textile companies."
+   ]
+  }
+ ],
+ "education": [
+  {
+   "org": "Universiti Sains Malaysia, Penang",
+   "place": "",
+   "role": "PhD (CS), Artificial / Computational Intelligence",
+   "period": "2018 – 2023",
+   "bullets": [
+    "Thesis: Communication-Efficient Decentralized Learning of Heterogeneous Deep Learning Models with Non-IID Data Using Adaptive Distillation.",
+    "HEC HRDI-UESTP fully funded scholarship; Best Paper Award (ICICSE 2021); Best Poster Award (CSPC 2020)."
+   ]
+  },
+  {
+   "org": "FAST-NUCES, Islamabad",
+   "place": "",
+   "role": "MS (CS), Computer Science (Computational Intelligence)",
+   "period": "2010 – 2012",
+   "bullets": [
+    "Thesis: A Diverse Clustering-Based PSO for Dynamic Environments: Locating and Tracking Multiple Optima."
+   ]
+  },
+  {
+   "org": "University of the Punjab",
+   "place": "",
+   "role": "BS (CS), Computer Science",
+   "period": "2006 – 2010",
+   "bullets": [
+    "Gold Medalist."
+   ]
+  }
+ ],
+ "awards": [
+  "Gold Medal, BS Computer Science, University of the Punjab (2013)",
+  "Best Paper Award, ICICSE 2021, Malaysia (2021)",
+  "Best Poster Award, CSPC 2020, Universiti Sains Malaysia (2020)",
+  "Fully funded PhD scholarship (HRDI-UESTP), Higher Education Commission, Pakistan (2018)",
+  "International conference travel grants (New Zealand; Malaysia), HEC Pakistan (2015, 2018)",
+  "Research grant for an international conference, Universiti Sains Malaysia (2021)",
+  "Winner, Speed Programming Competition; four-time scholarship holder, University of the Punjab (2009)"
+ ],
+ "certifications": [
+  "IBM Data Science Professional Certificate, IBM (2026), 12 courses",
+  "IBM Machine Learning Professional Certificate, IBM (2023), 6 courses",
+  "Deep Learning Specialization, DeepLearning.AI on Coursera (2026), 5 courses"
+ ],
+ "service": [
+  "Reviewer, including IEEE Transactions on Evolutionary Computation and IEEE Access",
+  "Co-Chair and TPC member, ICEPECC 2025 (IET), University of Gujrat (2025)",
+  "Member of the organizing committee, CSPC 2020, Malaysia (2020)",
+  "Coordinator, ACM University of Gujrat Chapter, and professional member of ACM (2015)",
+  "Coordinator, Hayatian Computing Society and co-curricular activities, University of Gujrat (2012–2015)",
+  "Organized local and national speed programming competitions, workshops and seminars, University of Gujrat (2012–2015)",
+  "Supervised 30+ final-year R&D projects and currently supervises several undergraduate and graduate research projects at the University of Gujrat and the University of Chenab (2012–present)"
+ ],
+ "skills": [
+  [
+   "Programming",
+   "Python, MATLAB, C++, SQL, C#"
+  ],
+  [
+   "ML frameworks",
+   "PyTorch, TensorFlow/Keras, scikit-learn"
+  ],
+  [
+   "Research tools",
+   "LaTeX, Git, Weights & Biases, Jupyter, Visual Studio Code"
+  ]
+ ],
+ "languages": [
+  [
+   "English",
+   "Professional"
+  ],
+  [
+   "Urdu",
+   "Native"
+  ],
+  [
+   "Punjabi",
+   "Native"
+  ]
+ ],
+ "collaboration_text": "Joint papers and projects with colleagues in six countries.",
+ "collaboration": [
+  [
+   "Slovenia",
+   "Jožef Stefan Institute, Ljubljana"
+  ],
+  [
+   "Japan",
+   "OMRON SINIC X, Tokyo"
+  ],
+  [
+   "Malaysia",
+   "Universiti Sains Malaysia; UCSI University; Taylor's University; Universiti Teknologi Malaysia"
+  ],
+  [
+   "Saudi Arabia",
+   "Northern Border University; Qassim University"
+  ],
+  [
+   "Jordan",
+   "Zarqa University; Al-Balqa Applied University; Al al-Bayt University; Applied Science Private University"
+  ],
+  [
+   "Pakistan",
+   "University of Gujrat; Air University"
+  ]
+ ],
+ "contact_text": "I welcome conversations about federated learning, knowledge distillation and joint research."
+}
