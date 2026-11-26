@@ -16,12 +16,16 @@ jobs:
       - name: Stop if content.generated.json was edited by hand
         if: github.event_name == 'push'
         run: |
-          if [ -f cv.json ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ] \
-             && git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" | grep -qx content.generated.json; then
-            echo "::error::content.generated.json is rebuilt from cv.json + site_extras.json on every run, so hand edits there are lost."
-            echo "::error::Put website wording in site_extras.json (or text_replacements there), or change the CV and upload a new cv.json."
-            git diff "${{ github.event.before }}" "${{ github.sha }}" -- content.generated.json
-            exit 1
+          if [ -f cv.json ] && [ -f content.generated.json ]; then
+            cp content.generated.json /tmp/committed.json
+            python3 from_rxresume.py > /dev/null
+            if ! cmp -s content.generated.json /tmp/committed.json && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ] \
+               && git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" | grep -qx content.generated.json; then
+              echo "::error::content.generated.json was edited by hand. It is rebuilt from cv.json + site_extras.json on every run, so these edits would be lost."
+              echo "::error::Put the change in site_extras.json (or a text_replacements entry there), or change the CV and upload a new cv.json."
+              diff /tmp/committed.json content.generated.json || true
+              exit 1
+            fi
           fi
       - name: Read the CV export (only when cv.json exists)
         run: |
