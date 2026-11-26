@@ -6,6 +6,10 @@ import json, re, sys, pathlib
 H = pathlib.Path(__file__).resolve().parent
 cv = json.loads((H / "cv.json").read_text(encoding="utf8"))
 ex = json.loads((H / "site_extras.json").read_text(encoding="utf8"))
+if cv["basics"].get("phone") or cv["basics"].get("customFields"):   # cv.json is public on GitHub Pages: never keep the phone number in it
+    cv["basics"]["phone"] = ""; cv["basics"]["customFields"] = []
+    (H / "cv.json").write_text(json.dumps(cv, indent=1, ensure_ascii=False), encoding="utf8")
+    print("Phone number removed from cv.json (the file is public).")
 sec = cv["sections"]
 txt = lambda s: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
 def items(name):

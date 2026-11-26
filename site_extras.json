@@ -90,7 +90,14 @@
   "IBM (2023), cover 6 courses": "IBM (2023), 6 courses",
   "DeepLearning.ai (Coursera) (2026), cover 5 courses": "DeepLearning.AI on Coursera (2026), 5 courses",
   "IEEE ACCESS": "IEEE Access",
-  "ACIT 2026 (Accepted)": "ACIT 2026 (accepted)"
+  "ACIT 2026 (Accepted)": "ACIT 2026 (accepted)",
+  "Reviewer of Top tier journals, including IEEE Transactions on Evolutionary Computation and IEEE Access (Present)": "Reviewer, including IEEE Transactions on Evolutionary Computation and IEEE Access",
+  "Supervision: 30+ undergraduate and graduate research projects, several published at international venues.": "Supervision: 40+ undergraduate and graduate research projects at the University of Gujrat (50+ in total, including other universities), several published at international venues.",
+  "Co-Chair and TPC member at ICEPECC-2025, ICEPECC 2025 (IET), University of Gujrat (2025)": "Co-Chair and TPC member, ICEPECC 2025 (IET), University of Gujrat (2025)",
+  "Coordinator of ACM University of Gujrat Chapter and professional member of ACM, University of Gujrat (2015)": "Coordinator, ACM University of Gujrat Chapter, and professional member of ACM (2015)",
+  "Member of organizing committee": "Member of the organizing committee",
+  "(2012–present). (2012 – Present)": "(2012–present).",
+  "(2012 – 2015)": "(2012–2015)"
  },
  "doi_by_title": {
   "FedSight: A federated decision-support system for trustworthy retinal diagnosis under statistical heterogeneity": "https://doi.org/10.1016/j.knosys.2026.117328",

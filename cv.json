@@ -1,0 +1,1569 @@
+{
+ "picture": {
+  "hidden": true,
+  "fit": "cover",
+  "url": "",
+  "size": 64,
+  "rotation": 0,
+  "aspectRatio": 1,
+  "borderRadius": 0,
+  "borderColor": "rgba(0, 0, 0, 0)",
+  "borderWidth": 0,
+  "shadowColor": "rgba(0, 0, 0, 0.5)",
+  "shadowWidth": 0
+ },
+ "basics": {
+  "name": "Dr. Zahid Iqbal",
+  "headline": "Senior Lecturer, Department of Computer Science, University of Gujrat, Pakistan",
+  "email": "zahidiqbal.mb@gmail.com; zahid.iqbal@uog.edu.pk",
+  "phone": "",
+  "location": "Gujrat, Pakistan",
+  "website": {
+   "url": "",
+   "label": ""
+  },
+  "customFields": []
+ },
+ "summary": {
+  "title": "Profile",
+  "icon": "",
+  "columns": 1,
+  "hidden": false,
+  "showHeading": true,
+  "keepTogether": false,
+  "startOnNewPage": false,
+  "content": "<p data-resume-whitespace=\"preserve\">Senior Lecturer in Computer Science with 16+ years of academic and research experience. Research interests include federated learning and its core challenges, including statistical and model heterogeneity, privacy, and explainability, with applications in medical imaging, network security, and industrial inspection. Have published in several top-tier journals and conferences. Recent work appears in Knowledge-Based Systems (Q1) and the International Journal of Information Security (Q1), as well as IEEE Access (Q2) and PeerJ Computer Science (Q2). PhD from Universiti Sains Malaysia (QS=128); research internship at OMRON SINIC X, Tokyo; research collaboration with the Jožef Stefan Institute (Slovenia); and collaboration with researchers in multiple countries, including Malaysia, Saudi Arabia, and Jordan.</p>"
+ },
+ "sections": {
+  "profiles": {
+   "title": "Profiles",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "78db1383-f880-4919-a9e8-67f56e3e1328",
+     "hidden": false,
+     "icon": "googlescholar",
+     "iconColor": "",
+     "network": "Google Scholar",
+     "username": "",
+     "website": {
+      "url": "[[URL]]",
+      "label": "",
+      "inlineLink": false
+     }
+    },
+    {
+     "id": "0c5a1a80-8704-4edd-8047-7103acdf2dc2",
+     "hidden": false,
+     "icon": "orcid",
+     "iconColor": "",
+     "network": "ORCID",
+     "username": "",
+     "website": {
+      "url": "[[URL]]",
+      "label": "",
+      "inlineLink": false
+     }
+    },
+    {
+     "id": "428b8cd8-96f2-4590-ae3d-b13653212d48",
+     "hidden": false,
+     "icon": "github",
+     "iconColor": "",
+     "network": "GitHub",
+     "username": "",
+     "website": {
+      "url": "[[URL]]",
+      "label": "",
+      "inlineLink": false
+     }
+    },
+    {
+     "id": "39d2d994-7dc5-4432-9bac-75686595fdad",
+     "hidden": false,
+     "icon": "linkedin",
+     "iconColor": "",
+     "network": "LinkedIn",
+     "username": "",
+     "website": {
+      "url": "[[URL]]",
+      "label": "",
+      "inlineLink": false
+     }
+    }
+   ]
+  },
+  "experience": {
+   "title": "Academic and Research Experience",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "fe0f01e3-c6d7-418f-9cfc-0f4a874b09ed",
+     "hidden": false,
+     "company": "Jožef Stefan Institute",
+     "position": "Research Collaborator",
+     "location": "Ljubljana, Slovenia",
+     "period": "Jan 2026 – Present",
+     "dates": {
+      "start": "2026-01",
+      "end": null,
+      "present": true,
+      "raw": "Jan 2026 – Present"
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<ul><li><p data-resume-whitespace=\"preserve\">Joint research on several projects, including federated learning, knowledge distillation, and trustworthy AI, with access to the institute's high-performance computing resources.</p></li><li><p data-resume-whitespace=\"preserve\">Several joint journal publications in Q1/Q2 journals, including Knowledge-Based Systems (2026, IF:8); International Journal of Information Security (2026, IF:5.0); and IEEE ACCESS (2026, IF:4.2). Some of the papers are under review in several journals and conferences.</p></li></ul>",
+     "roles": []
+    },
+    {
+     "id": "606322c4-0907-4183-b637-010905fcea1a",
+     "hidden": false,
+     "company": "OMRON SINIC X Corporation",
+     "position": "Research Intern (on site)",
+     "location": "Tokyo, Japan",
+     "period": "Apr 2019 – Sep 2019",
+     "dates": {
+      "start": "2019-04",
+      "end": "2019-09",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<ul><li><p>Designed an adaptive distillation method for decentralized (federated) learning across clients with heterogeneous data and models, using public unlabeled data; published at ICPR 2020 (Ma, Yonetani, Iqbal).</p></li></ul>",
+     "roles": []
+    },
+    {
+     "id": "13b65240-74de-401c-b63b-e956ac14b521",
+     "hidden": false,
+     "company": "University of Gujrat",
+     "position": "Senior Lecturer, Department of Computer Science",
+     "location": "Gujrat, Pakistan",
+     "period": "Jan 2012 – Present",
+     "dates": {
+      "start": "2012-01",
+      "end": null,
+      "present": true
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<ul><li><p>Teaching: designed and taught Artificial Intelligence, Machine Learning, Deep Learning, Federated Learning and Computational Intelligence; designed the AI and ML tracks.</p></li><li><p>Supervision: 30+ undergraduate and graduate research projects, several published at international venues.</p></li><li><p>Service: TPC Co-Chair, ICEPECC 2025 (IET); member of the affiliation and admission committees; founder and coordinator, Hayatian Computing Society; coordinator, ACM UOG Chapter (2013–2015).</p></li></ul>",
+     "roles": []
+    },
+    {
+     "id": "d9069d82-7a69-414f-aa97-ec74bd8c3a26",
+     "hidden": false,
+     "company": "Air University, Kharian Campus (on deputation)",
+     "position": "Assistant Professor and Chair/Head, Department of Computer Science and Cyber Security",
+     "location": "Kharian, Pakistan",
+     "period": "Jan 2025 – Sep 2025",
+     "dates": {
+      "start": "2025-01",
+      "end": "2025-09",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<ul><li><p>Led the BS Computer Science and BS Cyber Security programmes: OBE-based curriculum, budgets, faculty coordination.</p></li><li><p>Launched BS Artificial Intelligence and MS Computer Science (Fall 2025).</p></li></ul>",
+     "roles": []
+    },
+    {
+     "id": "823bab04-b9cb-4dad-b120-a38e307c4a2a",
+     "hidden": false,
+     "company": "University of the Punjab, Gujranwala Campus",
+     "position": "Visiting Lecturer",
+     "location": "Gujranwala, Pakistan",
+     "period": "Nov 2012 – Apr 2013",
+     "dates": {
+      "start": "2012-11",
+      "end": "2013-04",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "976278bb-7aa3-45e8-9666-97b81ec644dd",
+     "hidden": false,
+     "company": "Algorithm Consulting Company",
+     "position": "Software Engineer",
+     "location": "Islamabad, Pakistan",
+     "period": "2010 – 2011",
+     "dates": {
+      "start": "2010",
+      "end": "2011",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p>ERP solutions for multinational textile companies.</p>",
+     "roles": []
+    }
+   ]
+  },
+  "education": {
+   "title": "Education",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "58dd6430-e851-4882-88c9-2dea2fa4d736",
+     "hidden": false,
+     "school": "Universiti Sains Malaysia, Penang (QS:128)",
+     "degree": "PhD (CS)",
+     "area": "Artificial / Computational Intelligence",
+     "grade": "",
+     "location": "",
+     "period": "2018 – 2023",
+     "dates": {
+      "start": "2018",
+      "end": "2023",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<ul><li><p>Thesis: Communication-Efficient Decentralized Learning of Heterogeneous Deep Learning Models with Non-IID Data Using Adaptive Distillation.</p></li><li><p>HEC HRDI-UESTP fully funded scholarship; Best Paper Award (ICICSE 2021); Best Poster Award (CSPC 2020).</p></li></ul>"
+    },
+    {
+     "id": "ff8bc619-97fc-4bd0-953b-bc21974fbfce",
+     "hidden": false,
+     "school": "FAST-NUCES, Islamabad",
+     "degree": "MS (CS)",
+     "area": "Computer Science (Computational Intelligence)",
+     "grade": "",
+     "location": "",
+     "period": "2010 – 2012",
+     "dates": {
+      "start": "2010",
+      "end": "2012",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<ul><li><p>Thesis: A Diverse Clustering-Based PSO for Dynamic Environments: Locating and Tracking Multiple Optima.</p></li></ul>"
+    },
+    {
+     "id": "784e5756-f3f5-4671-9c42-2fd2bb49f44e",
+     "hidden": false,
+     "school": "University of the Punjab",
+     "degree": "BS (CS)",
+     "area": "Computer Science",
+     "grade": "",
+     "location": "",
+     "period": "2006 – 2010",
+     "dates": {
+      "start": "2006",
+      "end": "2010",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p><strong>Gold Medalist</strong></p>"
+    }
+   ]
+  },
+  "projects": {
+   "title": "Projects",
+   "icon": "",
+   "columns": 1,
+   "hidden": true,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": []
+  },
+  "skills": {
+   "title": "Skills",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "23d53ce4-6141-45e2-9c91-89d6be798745",
+     "hidden": false,
+     "icon": "",
+     "iconColor": "",
+     "name": "Programming",
+     "proficiency": "",
+     "level": 0,
+     "keywords": [
+      "Python",
+      "MATLAB",
+      "C++",
+      "SQL",
+      "C#"
+     ]
+    },
+    {
+     "id": "bca90ff5-5e77-4610-ba79-6e7b14fc7cc9",
+     "hidden": false,
+     "icon": "",
+     "iconColor": "",
+     "name": "ML frameworks",
+     "proficiency": "",
+     "level": 0,
+     "keywords": [
+      "PyTorch",
+      "TensorFlow/Keras",
+      "scikit-learn"
+     ]
+    },
+    {
+     "id": "9f1ee7bb-3a72-4544-bc1c-ad3bb63703f5",
+     "hidden": false,
+     "icon": "",
+     "iconColor": "",
+     "name": "Research tools",
+     "proficiency": "",
+     "level": 0,
+     "keywords": [
+      "LaTeX",
+      "Git",
+      "Weights & Biases",
+      "Jupyter",
+      "Visual Studio Code"
+     ]
+    }
+   ],
+   "keywordLayout": "inline",
+   "layout": "default"
+  },
+  "languages": {
+   "title": "Languages",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "dd97d6d6-1176-4d7e-829f-a929940de774",
+     "hidden": false,
+     "language": "English",
+     "fluency": "Professional",
+     "level": 0
+    },
+    {
+     "id": "8d92f727-6722-4db8-8d7c-53e24e515044",
+     "hidden": false,
+     "language": "Urdu",
+     "fluency": "Native",
+     "level": 0
+    },
+    {
+     "id": "3f8effd8-ea8b-4379-8948-b874f2b35c73",
+     "hidden": false,
+     "language": "Punjabi",
+     "fluency": "Native",
+     "level": 0
+    }
+   ]
+  },
+  "interests": {
+   "title": "Interests",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": []
+  },
+  "awards": {
+   "title": "Honours and Awards",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "4e2f4e6c-c0e5-4a55-baf1-9f1d5a5e8dcf",
+     "hidden": false,
+     "title": "Gold Medal, BS Computer Science",
+     "awarder": "University of the Punjab",
+     "date": "2013",
+     "dates": {
+      "start": "2013",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "79bc1b41-571e-48bd-af27-fc2d034cc1a6",
+     "hidden": false,
+     "title": "Best Paper Award, ICICSE 2021",
+     "awarder": "ICICSE, Malaysia",
+     "date": "2021",
+     "dates": {
+      "start": "2021",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "e8020026-192a-4e2a-a458-3ec2284cc770",
+     "hidden": false,
+     "title": "Best Poster Award, CSPC 2020",
+     "awarder": "Universiti Sains Malaysia",
+     "date": "2020",
+     "dates": {
+      "start": "2020",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "abaed8ae-15e5-418f-be46-6ab0261f59b5",
+     "hidden": false,
+     "title": "Fully funded PhD scholarship (HRDI-UESTP)",
+     "awarder": "Higher Education Commission, Pakistan",
+     "date": "2018",
+     "dates": {
+      "start": "2018",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "42de5d36-c347-4674-b260-0b5cac20a847",
+     "hidden": false,
+     "title": "International conference travel grants (New Zealand; Malaysia)",
+     "awarder": "HEC Pakistan",
+     "date": "2015 , 2018",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false,
+      "raw": "2015 , 2018"
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "af4caba3-0c67-4a68-84c8-af4ee8902299",
+     "hidden": false,
+     "title": "Research grant for an international conference",
+     "awarder": "Universiti Sains Malaysia",
+     "date": "2021",
+     "dates": {
+      "start": "2021",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "bca470cf-7ba5-42f4-9250-1d83c9f592f8",
+     "hidden": false,
+     "title": "Winner, Speed Programming Competition; four-time scholarship holder",
+     "awarder": "University of the Punjab",
+     "date": "2009",
+     "dates": {
+      "start": "2009",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    }
+   ]
+  },
+  "certifications": {
+   "title": "Certifications",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "03ab5e22-dbfe-4d8b-aac9-f36e85e24953",
+     "hidden": false,
+     "title": "IBM Data Science Professional Certificate",
+     "issuer": "IBM",
+     "date": "2026",
+     "dates": {
+      "start": "2026",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">cover 12 courses</p>"
+    },
+    {
+     "id": "867ee4e0-a030-4400-ba9f-04a537e00fe1",
+     "hidden": false,
+     "title": "IBM Machine Learning Professional Certificate",
+     "issuer": "IBM",
+     "date": "2023",
+     "dates": {
+      "start": "2023",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">cover 6 courses</p>"
+    },
+    {
+     "id": "01a21435-1a27-77de-9382-814a7b644ec9",
+     "hidden": false,
+     "title": "Deep Learning Specialization",
+     "issuer": "DeepLearning.ai (Coursera)",
+     "date": "2026",
+     "dates": {
+      "start": "2026",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">cover 5 courses</p>"
+    }
+   ]
+  },
+  "publications": {
+   "title": "Journal Publications",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "de8f6b6d-5a1a-4fd4-81fc-d7c72a6b4dc9",
+     "hidden": false,
+     "title": "FedSight: A federated decision-support system for trustworthy retinal diagnosis under statistical heterogeneity",
+     "publisher": "Knowledge-Based Systems, 356, 117328. JIF 8.0, Q1",
+     "date": "2026",
+     "dates": {
+      "start": "2026",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "33ea09a2-b824-42b1-b3d6-08ab686a269a",
+     "hidden": false,
+     "title": "Generative and Agentic Artificial Intelligence for Network Intrusion Detection: A Systematic Literature Review",
+     "publisher": "International Journal of Information Security, 25, 193 · JIF 5.0, Q1",
+     "date": "2026",
+     "dates": {
+      "start": "2026",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "5d34a05c-6cc0-4d71-8aba-c9d8c0fa409c",
+     "hidden": false,
+     "title": "Adaptive Dual-Mode Distillation for Robust and Communication-Efficient Federated Learning under Statistical and Model Heterogeneity",
+     "publisher": "IEEE Access, 14, 145907–145925 · JIF 4.2, Q2 ",
+     "date": "2026",
+     "dates": {
+      "start": "2026",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ACCESS.2026.3735432",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "e4cdd6d4-12f9-490f-970c-0ecb80b6a99c",
+     "hidden": false,
+     "title": "Ensemble Attention Deep Network for Imbalanced Silicon Wafer Defect Inspection",
+     "publisher": "PeerJ Computer Science, 12, e4025 · JIF 2.9, Q2",
+     "date": "2026",
+     "dates": {
+      "start": "2026",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.7717/peerj-cs.4025",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "19a77ef1-2f7d-49b7-a731-0e1d4c16b8ac",
+     "hidden": false,
+     "title": "Artificial Intelligence in Smart Home Security: Balancing Innovation with Ethics",
+     "publisher": "Bulletin of Electrical Engineering and Informatics, 14(6), 4601–4613 · Scopus Q3",
+     "date": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.11591/eei.v14i6.9674",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "f460e172-087a-4f66-83a2-0c241d824e6b",
+     "hidden": false,
+     "title": "Efficient Region-Based Video Text Extraction Using Advanced Detection and Recognition Models",
+     "publisher": "International Journal of Innovations in Science & Technology, 7(5), 31–45",
+     "date": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.33411/ijist/1238",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "56e92e0c-6fc2-4513-bc41-22a1054f1a19",
+     "hidden": false,
+     "title": "Enhanced Anomaly Detection in Ethereum: Unveiling and Classifying Threats with Machine Learning",
+     "publisher": "IEEE Access, 12, 176440–176456 · JIF 4.2, Q2",
+     "date": "2024",
+     "dates": {
+      "start": "2024",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ACCESS.2024.3504300",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "eb522876-40fc-47b1-9f58-e15faaffc51b",
+     "hidden": false,
+     "title": "Handling Illusive Text in Document to Improve Accuracy of Plagiarism Detection Algorithm",
+     "publisher": "Lecture Notes in Electrical Engineering, 829, 52–58, Springer",
+     "date": "2022",
+     "dates": {
+      "start": "2022",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "023aa6c4-8006-44fc-a69a-6c39a302aec6",
+     "hidden": false,
+     "title": "Concepts, Key Challenges and Open Problems of Federated Learning",
+     "publisher": "International Journal of Engineering, 34(7), 1667–1683. JIF 2.3 Q2",
+     "date": "2021",
+     "dates": {
+      "start": "2021",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.5829/ije.2021.34.07a.11",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    },
+    {
+     "id": "882cb2a3-1d3c-4932-90b0-5b2aa93d5c7d",
+     "hidden": false,
+     "title": "Effective Solution of University Course Timetabling Using a Particle Swarm Optimizer-Based Hyper-Heuristic Approach",
+     "publisher": "Baghdad Science Journal, 18(4 Suppl.), 1465. JIF 1.4 Q3",
+     "date": "2021",
+     "dates": {
+      "start": "2021",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.21123/bsj.2021.18.4(Suppl.).1465",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>"
+    }
+   ]
+  },
+  "volunteer": {
+   "title": "Professional Service",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": [
+    {
+     "id": "022c13da-bf2b-42bd-9af7-735b90ff36a3",
+     "hidden": false,
+     "organization": "Reviewer of Top tier journals ",
+     "location": "",
+     "period": "Present",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": true
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">including IEEE Transactions on Evolutionary Computation and IEEE Access</p>"
+    },
+    {
+     "id": "e642db00-4e68-4546-add9-1a375fd23ae2",
+     "hidden": false,
+     "organization": "Co-Chair and TPC member at ICEPECC-2025",
+     "location": "",
+     "period": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">ICEPECC 2025 (IET), University of Gujrat</p>"
+    },
+    {
+     "id": "2ce7b18e-12b3-4812-a117-2d272ad4a37d",
+     "hidden": false,
+     "organization": "Member of organizing committee",
+     "location": "",
+     "period": "2020",
+     "dates": {
+      "start": "2020",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">CSPC 2020, Malaysia</p>"
+    },
+    {
+     "id": "01a1cc2a-69ee-7047-a5a9-b46b687bf453",
+     "hidden": false,
+     "organization": "Coordinator of ACM University of Gujrat Chapter and professional member of ACM",
+     "location": "",
+     "period": "2015",
+     "dates": {
+      "start": "2015",
+      "end": null,
+      "present": false,
+      "raw": "2015"
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">University of Gujrat</p>"
+    },
+    {
+     "id": "01a1cc2a-f63e-70a9-9e97-530d01b5a5d9",
+     "hidden": false,
+     "organization": "Coordinator of Hayatian Computing Society & co-curricular activities",
+     "location": "",
+     "period": "2012 – 2015",
+     "dates": {
+      "start": "2012",
+      "end": "2015",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">University of Gujrat</p>"
+    },
+    {
+     "id": "01a1cc2b-6fa6-7074-acd3-0adb83dd7f13",
+     "hidden": false,
+     "organization": "",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": ""
+    },
+    {
+     "id": "01a1cc2b-a08e-73eb-a649-a5e2430277b0",
+     "hidden": false,
+     "organization": "Organized many local and national level Speed Programming Competitions",
+     "location": "",
+     "period": "2012 – 2015",
+     "dates": {
+      "start": "2012",
+      "end": "2015",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">University of Gujrat</p>"
+    },
+    {
+     "id": "01a1cc2c-223e-72c6-8e8a-aafd035b1a5f",
+     "hidden": false,
+     "organization": "Organized many workshops and seminars",
+     "location": "",
+     "period": "2012 – 2015",
+     "dates": {
+      "start": "2012",
+      "end": "2015",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">University of Gujrat</p>"
+    },
+    {
+     "id": "01a1cc2c-75ae-76b3-a7f1-fcfd7e267b44",
+     "hidden": false,
+     "organization": "Supervised 50+ final-year R&D projects and currently supervises several undergraduate and graduate research projects at several universities including the University of Gujrat and the University of Chenab (2012–present).",
+     "location": "",
+     "period": "2012 – Present",
+     "dates": {
+      "start": "2012",
+      "end": null,
+      "present": true
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\"></p>"
+    }
+   ]
+  },
+  "references": {
+   "title": "References",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "items": []
+  }
+ },
+ "customSections": [
+  {
+   "title": "Research Interests",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "id": "513805b9-dc0f-4a31-bad2-034a740e29e1",
+   "type": "experience",
+   "items": [
+    {
+     "id": "ed381327-e36f-4ab0-ac52-11af57f1a3ae",
+     "hidden": false,
+     "company": ".",
+     "position": "",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p data-resume-whitespace=\"preserve\">Federated learning · Knowledge distillation · Privacy in machine learning · Explainable AI · Medical image analysis · Intrusion detection · Multimodal learning · Trustworthy AI</p>",
+     "roles": []
+    }
+   ]
+  },
+  {
+   "title": "Conference Publications",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "id": "6a23d328-77d9-4691-a9fb-8e6770f5d2ca",
+   "type": "experience",
+   "items": [
+    {
+     "id": "c7e976e1-2c1e-4aa7-bd1d-d23a1e0599d4",
+     "hidden": false,
+     "company": "Hybrid Acoustic and Self-Supervised Feature Fusion for UAV Detection Using Stacking Ensemble Learning",
+     "position": "ACIT 2026 (Accepted)",
+     "location": "",
+     "period": "2026",
+     "dates": {
+      "start": null,
+      "end": "2026",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "91009a1b-fc89-42c5-894e-dfc51d36dc64",
+     "hidden": false,
+     "company": "Attention-Enhanced Convolutional Neural Network for Robust Recognition of Mixed and Imbalanced Wafer Defects",
+     "position": "ACIT 2026 (Accepted)",
+     "location": "",
+     "period": "2026",
+     "dates": {
+      "start": null,
+      "end": "2026",
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "f38fce70-278e-4644-866c-e622a4a1afe9",
+     "hidden": false,
+     "company": "Automated Question Generation from Job Descriptions Using Large Language Models: An Evaluation of Role-Fit and Fairness",
+     "position": "ICEPECC 2025, IET, pp. 628–635",
+     "location": "",
+     "period": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1049/icp.2025.1174",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "f320da1d-d625-4fdc-b625-c1ada135957c",
+     "hidden": false,
+     "company": "A Study of Different Machine Learning Approaches for Relation Discovery Task",
+     "position": "ICEPECC 2025, IET, pp. 423–431",
+     "location": "",
+     "period": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "c37f3607-330a-431f-ac01-e98250ad680a",
+     "hidden": false,
+     "company": "Development and Implementation of an Autonomous Vehicle Prototype with ADAS",
+     "position": "ICEPECC 2025, IET, pp. 464–471",
+     "location": "",
+     "period": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1049/icp.2025.1154",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "be58e451-c87e-4674-bbb2-40a485aef2d7",
+     "hidden": false,
+     "company": "IoT-Enabled Palm Oil Supply Chain Traceability: Exploiting Dual Channel Diversity",
+     "position": "IEEE ICSECS 2025, pp. 514–519",
+     "location": "",
+     "period": "2025",
+     "dates": {
+      "start": "2025",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ICSECS65227.2025.11279234",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "0f122d90-c859-4022-be49-f82b45b313bc",
+     "hidden": false,
+     "company": "Adaptive Distillation for Decentralized Learning from Heterogeneous Clients",
+     "position": "25th International Conference on Pattern Recognition (ICPR 2020), IEEE, pp. 7486–7492",
+     "location": "",
+     "period": "2021",
+     "dates": {
+      "start": "2021",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ICPR48806.2021.9412356",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "b863ea13-9edc-4cd7-b8bf-27aa5825366d",
+     "hidden": false,
+     "company": "A Comparative Study of Machine Learning Techniques Used in Non-Clinical Systems for Continuous Healthcare of Independent Livings",
+     "position": "IEEE ISCAIE 2018, pp. 406–411",
+     "location": "",
+     "period": "2018",
+     "dates": {
+      "start": "2018",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ISCAIE.2018.8405507",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "6a7bb994-2a21-45a5-b042-43057ce610c4",
+     "hidden": false,
+     "company": "A Diverse Clustering Particle Swarm Optimizer for Dynamic Environment: To Locate and Track Multiple Optima",
+     "position": "IEEE ICIEA 2015, pp. 1755–1760",
+     "location": "",
+     "period": "2015",
+     "dates": {
+      "start": "2015",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ICIEA.2015.7334395",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "51eb967d-5afa-4e1d-83c2-260993f65f14",
+     "hidden": false,
+     "company": "Study of Hybrid Approaches Used for University Course Timetable Problem (UCTP)",
+     "position": "IEEE ICIEA 2015, pp. 696–701",
+     "location": "",
+     "period": "2015",
+     "dates": {
+      "start": "2015",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ICIEA.2015.7334198",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    },
+    {
+     "id": "5f689d85-e6e3-4425-8ef5-ab423aaf124a",
+     "hidden": false,
+     "company": "An Efficient Indoor Navigation Technique to Find Optimal Route for Blinds Using QR Codes",
+     "position": "IEEE ICIEA 2015, pp. 690–695",
+     "location": "",
+     "period": "2015",
+     "dates": {
+      "start": "2015",
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "https://doi.org/10.1109/ICIEA.2015.7334197",
+      "label": "DOI",
+      "inlineLink": true
+     },
+     "description": "<p></p>",
+     "roles": []
+    }
+   ]
+  },
+  {
+   "title": "Manuscripts Under Review",
+   "icon": "",
+   "columns": 1,
+   "hidden": false,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "id": "412c2273-ea20-4702-bf3a-35ee72061845",
+   "type": "experience",
+   "items": [
+    {
+     "id": "7ff71623-fb73-4cf0-8e46-c75292472251",
+     "hidden": false,
+     "company": "A Survey on Federated and Explainable Edge Intelligence for IoT Anomaly Detection",
+     "position": "Computing (Springer)",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "01a21427-8120-7178-b0bf-a6496246579c",
+     "hidden": false,
+     "company": "TwinView-Stack: source-disjoint fusion of hand-crafted and pretrained audio features for leakage-aware acoustic drone detection",
+     "position": "Applied Acoustics",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "01a21428-38b8-76cd-94ac-7c7732ad00e6",
+     "hidden": false,
+     "company": "LSB eHealth: A Lightweight Scalable Blockchain Framework for Low-Latency and Robust Federated e-Healthcare Services",
+     "position": "Information Fusion",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "01a21429-3f77-74b1-a3a6-8867f2f7b179",
+     "hidden": false,
+     "company": "ConFog: Fog–Cloud Insider Threat Detection with Tamper-Evident Alerts for Smart Hospitals",
+     "position": "IEEE ACCESS",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "fe349824-f917-49a8-9f60-74f743b414b6",
+     "hidden": false,
+     "company": "Leakage-Free Evaluation of Residual Graph Convolutional Networks for Network Intrusion Detection",
+     "position": "arXiv preprint 2611.04660",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "4aa26f6f-fabe-465a-addd-92760f202db1",
+     "hidden": false,
+     "company": "Leakage-aware acoustic drone detection: fusing hand-crafted and pretrained audio features in a stacking ensemble",
+     "position": "arXiv preprint 2611.04714",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "951f094d-d8c2-460a-8ff1-827bbf960fcd",
+     "hidden": false,
+     "company": "An Exploitation-Enhanced Binary Tornado Optimizer with Coriolis Force for Feature Selection",
+     "position": "Neural Computing and Applications",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "c3d7eaad-3bc4-4547-acf4-49c2fa1651fe",
+     "hidden": false,
+     "company": "Analytical Study of Automated Ontology Learning and Relation Extraction: A Review of Methods, Representations, and Approaches",
+     "position": "Computer Science Review",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    },
+    {
+     "id": "a81219e0-6420-46ed-8d0f-35574a2a5a4c",
+     "hidden": true,
+     "company": "Residual Graph Convolutional Network for Intrusion Detection (conference version)",
+     "position": "ACIT 2026 (Accepted)",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "",
+     "roles": []
+    }
+   ]
+  },
+  {
+   "title": "International Research Collaborations",
+   "icon": "",
+   "columns": 1,
+   "hidden": true,
+   "showHeading": true,
+   "keepTogether": false,
+   "startOnNewPage": false,
+   "id": "bb01b90f-00a6-49c4-b39b-efeb082db7ad",
+   "type": "experience",
+   "items": [
+    {
+     "id": "93ef3593-9033-49da-8978-b8c1e6aeb237",
+     "hidden": false,
+     "company": "#1",
+     "position": "",
+     "location": "",
+     "period": "",
+     "dates": {
+      "start": null,
+      "end": null,
+      "present": false
+     },
+     "website": {
+      "url": "",
+      "label": "",
+      "inlineLink": false
+     },
+     "description": "<p>Co-authored work (2020–2026) with researchers at: Jožef Stefan Institute (Slovenia); OMRON SINIC X (Japan); Universiti Sains Malaysia, UCSI University, Taylor's University, Universiti Teknologi Malaysia and Universiti Malaysia Pahang Al-Sultan Abdullah [[confirm UMPSA from the ICSECS paper]] (Malaysia); Northern Border University and Qassim University (Saudi Arabia); Zarqa University, Al-Balqa Applied University, Al al-Bayt University and Applied Science Private University (Jordan). Forms: joint journal papers, co-supervision of postgraduate students, joint research projects.</p>",
+     "roles": []
+    }
+   ]
+  }
+ ],
+ "metadata": {
+  "template": "rhyhorn",
+  "layout": {
+   "sidebarWidth": 35,
+   "pages": [
+    {
+     "fullWidth": true,
+     "main": [
+      "summary",
+      "interests",
+      "513805b9-dc0f-4a31-bad2-034a740e29e1",
+      "publications",
+      "6a23d328-77d9-4691-a9fb-8e6770f5d2ca",
+      "412c2273-ea20-4702-bf3a-35ee72061845",
+      "experience",
+      "education",
+      "bb01b90f-00a6-49c4-b39b-efeb082db7ad",
+      "awards",
+      "certifications",
+      "volunteer",
+      "skills",
+      "languages",
+      "references"
+     ],
+     "sidebar": []
+    }
+   ]
+  },
+  "page": {
+   "gapX": 4,
+   "gapY": 6,
+   "marginX": 16,
+   "marginY": 16,
+   "format": "a4",
+   "locale": "en-US",
+   "dateFormat": "short",
+   "hideLinkUnderline": false,
+   "hideIcons": true,
+   "hideSectionIcons": true
+  },
+  "design": {
+   "level": {
+    "icon": "star",
+    "type": "circle"
+   },
+   "colors": {
+    "primary": "rgba(31, 58, 95, 1)",
+    "text": "rgba(0, 0, 0, 1)",
+    "background": "rgba(255, 255, 255, 1)"
+   }
+  },
+  "typography": {
+   "body": {
+    "fontFamily": "Lato",
+    "fontWeights": [
+     "400",
+     "400",
+     "700"
+    ],
+    "fontSize": 9.75,
+    "lineHeight": 1.4
+   },
+   "heading": {
+    "fontFamily": "Lato",
+    "fontWeights": [
+     "700"
+    ],
+    "fontSize": 12.75,
+    "lineHeight": 1.4
+   }
+  },
+  "notes": "",
+  "styleRules": [],
+  "web": {
+   "showCredit": true,
+   "css": ""
+  }
+ }
+}

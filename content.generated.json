@@ -12,8 +12,7 @@
   "address": "Department of Computer Science, Faculty of Computing and IT, University of Gujrat, Hafiz Hayat Campus, Gujrat, Pakistan",
   "photo": "",
   "description": "Computer scientist working on federated learning with heterogeneous clients, knowledge distillation and trustworthy AI. Senior Lecturer at the University of Gujrat; research collaborator of the Jožef Stefan Institute, Slovenia.",
-  "show_under_review": true,
-  "cv_pdf": ""
+  "show_under_review": true
  },
  "links": {
   "scholar": "",
@@ -21,18 +20,7 @@
   "github": "",
   "linkedin": ""
  },
- "lead": "Senior Lecturer in Computer Science with 16+ years of academic and research experience. Research interests include federated learning and its core challenges, including statistical and model heterogeneity, privacy, and explainability, with applications in medical imaging, network security, and industrial inspection. Have published in several top-tier journals and conferences. Recent work appears in Knowledge-Based Systems (Q1) and the International Journal of Information Security (Q1), as well as IEEE Access (Q2) and PeerJ Computer Science (Q2). PhD from Universiti Sains Malaysia (QS=128); research internship at OMRON SINIC X, Tokyo; research collaboration with the Jožef Stefan Institute (Slovenia); and collaboration with researchers in multiple countries, including Malaysia, Saudi Arabia, and Jordan.",
  "about": "",
- "interests": [
-  "Federated learning",
-  "Knowledge distillation",
-  "Privacy in machine learning",
-  "Explainable AI",
-  "Medical image analysis",
-  "Intrusion detection",
-  "Multimodal learning",
-  "Trustworthy AI"
- ],
  "news": [
   [
    "2026",
@@ -56,6 +44,46 @@
   ]
  ],
  "pub_note": "JIF and quartile: Clarivate JCR unless marked; BEEI: Scopus. Titles link to the publisher page.",
+ "research_heading": "Research interests",
+ "collaboration_text": "Research Collaboration with several authors/institutes in",
+ "collaboration": [
+  [
+   "Slovenia",
+   "Jožef Stefan Institute, Ljubljana"
+  ],
+  [
+   "Japan",
+   "OMRON SINIC X, Tokyo"
+  ],
+  [
+   "Malaysia",
+   "Universiti Sains Malaysia; UCSI University; Taylor's University; Universiti Teknologi Malaysia"
+  ],
+  [
+   "Saudi Arabia",
+   "Northern Border University; Qassim University"
+  ],
+  [
+   "Jordan",
+   "Zarqa University; Al-Balqa Applied University; Al al-Bayt University; Applied Science Private University"
+  ],
+  [
+   "Pakistan",
+   "University of Gujrat; Air University"
+  ]
+ ],
+ "contact_text": "I welcome discussing any research collaboration opportunity.",
+ "interests": [
+  "Federated learning",
+  "Knowledge distillation",
+  "Privacy in machine learning",
+  "Explainable AI",
+  "Medical image analysis",
+  "Intrusion detection",
+  "Multimodal learning",
+  "Trustworthy AI"
+ ],
+ "lead": "Senior Lecturer in Computer Science with 16+ years of academic and research experience. Research interests include federated learning and its core challenges, including statistical and model heterogeneity, privacy, and explainability, with applications in medical imaging, network security, and industrial inspection. Have published in several top-tier journals and conferences. Recent work appears in Knowledge-Based Systems (Q1) and the International Journal of Information Security (Q1), as well as IEEE Access (Q2) and PeerJ Computer Science (Q2). PhD from Universiti Sains Malaysia (QS=128); research internship at OMRON SINIC X, Tokyo; research collaboration with the Jožef Stefan Institute (Slovenia); and collaboration with researchers in multiple countries, including Malaysia, Saudi Arabia, and Jordan.",
  "journals": [
   {
    "title": "FedSight: A federated decision-support system for trustworthy retinal diagnosis under statistical heterogeneity",
@@ -256,8 +284,8 @@
    "role": "Research Collaborator",
    "period": "Jan 2026 – Present",
    "bullets": [
-    "Joint research on several projects, including federated learning, knowledge distillation and trustworthy AI, with access to the institute's high-performance computing resources.",
-    "Joint journal publications in 2026: Knowledge-Based Systems (JIF 8.0, Q1); International Journal of Information Security (JIF 5.0, Q1); IEEE Access (JIF 4.2, Q2)."
+    "Joint research on several projects, including federated learning, knowledge distillation, and trustworthy AI, with access to the institute's high-performance computing resources.",
+    "Several joint journal publications in Q1/Q2 journals, including Knowledge-Based Systems (2026, IF:8); International Journal of Information Security (2026, IF:5.0); and IEEE Access (2026, IF:4.2). Some of the papers are under review in several journals and conferences."
    ]
   },
   {
@@ -276,7 +304,7 @@
    "period": "Jan 2012 – Present",
    "bullets": [
     "Teaching: designed and taught Artificial Intelligence, Machine Learning, Deep Learning, Federated Learning and Computational Intelligence; designed the AI and ML tracks.",
-    "Supervision: 30+ undergraduate and graduate research projects, several published at international venues.",
+    "Supervision: 40+ undergraduate and graduate research projects at the University of Gujrat (50+ in total, including other universities), several published at international venues.",
     "Service: TPC Co-Chair, ICEPECC 2025 (IET); member of the affiliation and admission committees; founder and coordinator, Hayatian Computing Society; coordinator, ACM UOG Chapter (2013–2015)."
    ]
   },
@@ -309,7 +337,7 @@
  ],
  "education": [
   {
-   "org": "Universiti Sains Malaysia, Penang",
+   "org": "Universiti Sains Malaysia, Penang (QS:128)",
    "place": "",
    "role": "PhD (CS), Artificial / Computational Intelligence",
    "period": "2018 – 2023",
@@ -333,7 +361,7 @@
    "role": "BS (CS), Computer Science",
    "period": "2006 – 2010",
    "bullets": [
-    "Gold Medalist."
+    "Gold Medalist"
    ]
   }
  ],
@@ -356,8 +384,9 @@
   "Co-Chair and TPC member, ICEPECC 2025 (IET), University of Gujrat (2025)",
   "Member of the organizing committee, CSPC 2020, Malaysia (2020)",
   "Coordinator, ACM University of Gujrat Chapter, and professional member of ACM (2015)",
-  "Coordinator, Hayatian Computing Society and co-curricular activities, University of Gujrat (2012–2015)",
-  "Organized local and national speed programming competitions, workshops and seminars, University of Gujrat (2012–2015)",
+  "Coordinator of Hayatian Computing Society & co-curricular activities, University of Gujrat (2012–2015)",
+  "Organized many local and national level Speed Programming Competitions, University of Gujrat (2012–2015)",
+  "Organized many workshops and seminars, University of Gujrat (2012–2015)",
   "Supervised 50+ final-year R&D projects and currently supervises several undergraduate and graduate research projects at several universities including the University of Gujrat and the University of Chenab (2012–present)."
  ],
  "skills": [
@@ -387,34 +416,5 @@
    "Punjabi",
    "Native"
   ]
- ],
- "collaboration_text": "Research Collaboration with several authors/institutes in",
- "collaboration": [
-  [
-   "Slovenia",
-   "Jožef Stefan Institute, Ljubljana"
-  ],
-  [
-   "Japan",
-   "OMRON SINIC X, Tokyo"
-  ],
-  [
-   "Malaysia",
-   "Universiti Sains Malaysia; UCSI University; Taylor's University; Universiti Teknologi Malaysia"
-  ],
-  [
-   "Saudi Arabia",
-   "Northern Border University; Qassim University"
-  ],
-  [
-   "Jordan",
-   "Zarqa University; Al-Balqa Applied University; Al al-Bayt University; Applied Science Private University"
-  ],
-  [
-   "Pakistan",
-   "University of Gujrat; Air University"
-  ]
- ],
- "contact_text": "I welcome discussing any research collaboration opportunity.",
- "research_heading": "Research interests"
+ ]
 }
