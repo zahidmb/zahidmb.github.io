@@ -21,7 +21,7 @@
   "github": "",
   "linkedin": ""
  },
- "lead": "Senior Lecturer in Computer Science at the University of Gujrat since 2012. I work on federated learning across clients that hold different data and different models, using adaptive knowledge distillation, with applications in medical imaging, network security and industrial inspection.",
+ "lead": "Senior Lecturer in Computer Science with 16+ years of academic and research experience. Research interests include federated learning and its core challenges, including statistical and model heterogeneity, privacy, and explainability, with applications in medical imaging, network security, and industrial inspection. Have published in several top-tier journals and conferences. Recent work appears in Knowledge-Based Systems (Q1) and the International Journal of Information Security (Q1), as well as IEEE Access (Q2) and PeerJ Computer Science (Q2). PhD from Universiti Sains Malaysia (QS=128); research internship at OMRON SINIC X, Tokyo; research collaboration with the Jožef Stefan Institute (Slovenia); and collaboration with researchers in multiple countries, including Malaysia, Saudi Arabia, and Jordan.",
  "about": "",
  "interests": [
   "Federated learning",
@@ -44,7 +44,7 @@
   ],
   [
    "2026",
-   "<a href=\"https://doi.org/10.1109/ACCESS.2026.3735432\">Adaptive dual-mode distillation</a> for federated learning published in <em>IEEE Access</em>, joint work with the Jožef Stefan Institute."
+   "<a href=\"https://doi.org/10.1109/ACCESS.2026.3735432\">Adaptive dual-mode distillation</a> for federated learning published in <em>IEEE Access</em>, (JIF 4.2, Q2)"
   ],
   [
    "2026",
