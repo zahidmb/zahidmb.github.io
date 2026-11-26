@@ -1,0 +1,87 @@
+{
+ "site": {
+  "name": "Dr. Zahid Iqbal",
+  "title": "Senior Lecturer, Department of Computer Science",
+  "affiliation": "University of Gujrat, Pakistan",
+  "tagline_short": "Federated learning and knowledge distillation",
+  "site_url": "https://zahidmb.github.io/",
+  "emails": [
+   "zahidiqbal.mb@gmail.com",
+   "zahid.iqbal@uog.edu.pk"
+  ],
+  "address": "Department of Computer Science, Faculty of Computing and IT, University of Gujrat, Hafiz Hayat Campus, Gujrat, Pakistan",
+  "photo": "",
+  "description": "Computer scientist working on federated learning with heterogeneous clients, knowledge distillation and trustworthy AI. Senior Lecturer at the University of Gujrat; research collaborator of the Jožef Stefan Institute, Slovenia.",
+  "show_under_review": true
+ },
+ "links": {
+  "scholar": "",
+  "orcid": "",
+  "github": "",
+  "linkedin": ""
+ },
+ "about": "",
+ "news": [
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.1007/s10207-026-01361-8\">Generative and agentic AI for network intrusion detection</a>: systematic review published in the <em>International Journal of Information Security</em> (JIF 5.0, Q1)."
+  ],
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.1016/j.knosys.2026.117328\">FedSight</a>, a federated decision-support system for retinal diagnosis, published in <em>Knowledge-Based Systems</em> (JIF 8.0, Q1)."
+  ],
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.1109/ACCESS.2026.3735432\">Adaptive dual-mode distillation</a> for federated learning published in <em>IEEE Access</em>, (JIF 4.2, Q2)."
+  ],
+  [
+   "2026",
+   "<a href=\"https://doi.org/10.7717/peerj-cs.4025\">Ensemble attention deep network</a> for imbalanced silicon wafer defect inspection published in <em>PeerJ Computer Science</em> (JIF 2.9, Q2)."
+  ],
+  [
+   "2026",
+   "Two sole-author arXiv preprints on leakage-aware evaluation (intrusion detection and drone audio)."
+  ]
+ ],
+ "pub_note": "JIF and quartile: Clarivate JCR unless marked; BEEI: Scopus. Titles link to the publisher page.",
+ "research_heading": "Research interests",
+ "collaboration_text": "Research Collaboration with several authors/institutes in",
+ "collaboration": [
+  [
+   "Slovenia",
+   "Jožef Stefan Institute, Ljubljana"
+  ],
+  [
+   "Japan",
+   "OMRON SINIC X, Tokyo"
+  ],
+  [
+   "Malaysia",
+   "Universiti Sains Malaysia; UCSI University; Taylor's University; Universiti Teknologi Malaysia"
+  ],
+  [
+   "Saudi Arabia",
+   "Northern Border University; Qassim University"
+  ],
+  [
+   "Jordan",
+   "Zarqa University; Al-Balqa Applied University; Al al-Bayt University; Applied Science Private University"
+  ],
+  [
+   "Pakistan",
+   "University of Gujrat; Air University"
+  ]
+ ],
+ "contact_text": "I welcome discussing any research collaboration opportunity.",
+ "interests": [
+  "Federated learning",
+  "Knowledge distillation",
+  "Privacy in machine learning",
+  "Explainable AI",
+  "Medical image analysis",
+  "Intrusion detection",
+  "Multimodal learning",
+  "Trustworthy AI"
+ ],
+ "text_replacements": {}
+}

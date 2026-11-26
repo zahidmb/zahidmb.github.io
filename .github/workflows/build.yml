@@ -1,9 +1,9 @@
-# Rebuilds index.html automatically whenever content.json (or build.py / style.css) is edited on GitHub.
+# Rebuilds the website when the CV export, the website-only settings, a CV PDF or the scripts change.
 name: Rebuild site
 on:
   workflow_dispatch:
   push:
-    paths: ["content.json", "build.py", ".github/workflows/build.yml"]
+    paths: ["cv.json", "cv.pdf", "site_extras.json", "content.json", "build.py", "from_rxresume.py", ".github/workflows/build.yml"]
 permissions:
   contents: write
 jobs:
@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Read the CV export (only when cv.json exists)
+        run: |
+          if [ -f cv.json ]; then python3 from_rxresume.py; else echo "No cv.json: using content.json"; fi
       - run: python3 build.py
       - run: |
           git config user.name "site-builder"
           git config user.email "actions@users.noreply.github.com"
-          git add index.html sitemap.xml robots.txt
-          git diff --cached --quiet || (git commit -m "Rebuild index.html" && git push)
+          git add -A index.html content.generated.json sitemap.xml robots.txt
+          git diff --cached --quiet || (git commit -m "Rebuild site" && git push)

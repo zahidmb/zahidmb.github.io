@@ -3,8 +3,13 @@
 Edit content.json (text, papers, links); never edit index.html by hand."""
 import json, html, pathlib, datetime
 H = pathlib.Path(__file__).resolve().parent
-c = json.loads((H / "content.json").read_text(encoding="utf8"))
-s = c["site"]; E = lambda x: html.escape(x or "", quote=True)
+src = H / "content.generated.json" if (H / "cv.json").exists() and (H / "content.generated.json").exists() else H / "content.json"
+c = json.loads(src.read_text(encoding="utf8"))
+s = c["site"]
+if not s.get("cv_pdf"):   # a PDF in the repo root becomes the "CV (PDF)" button: cv.pdf, or the only .pdf there
+    pdfs = [p.name for p in H.glob("*.pdf")]
+    s["cv_pdf"] = "cv.pdf" if "cv.pdf" in pdfs else (pdfs[0] if len(pdfs) == 1 else "")
+E = lambda x: html.escape(x or "", quote=True)
 
 def a(url, text): return f'<a href="{E(url)}" rel="noopener">{text}</a>' if url else text
 def pub(p, badge=True):
