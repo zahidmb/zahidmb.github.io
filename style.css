@@ -13,7 +13,7 @@ h3{font-size:1.02rem;margin:0}h3.sub{font-size:.8rem;text-transform:uppercase;le
 .hero{display:flex;gap:28px;align-items:center;padding:44px 0 34px}
 .photo{width:168px;height:168px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--line)}
 .initials{display:flex;align-items:center;justify-content:center;background:var(--accbg);color:var(--acc);font-size:3rem;font-weight:700}
-.role-line{color:var(--mut);margin:0 0 12px}.lead{margin:0 0 16px}
+.role-line{color:var(--mut);margin:0 0 12px}.lead{margin:0 0 16px;font-size:.93rem;line-height:1.55;max-width:60ch}
 .actions{display:flex;gap:10px;flex-wrap:wrap;margin:0}
 .btn{padding:8px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:15px}
 .btn.primary{background:var(--acc);border-color:var(--acc);color:#fff}.btn:hover{text-decoration:none;border-color:var(--acc)}
